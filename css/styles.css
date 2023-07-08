@@ -46,9 +46,9 @@ select {
     padding: 0.25rem 0.5rem;
 }
 
-/* .hide {
+.hide {
     display: none;
-} */
+}
 
 /* CSS do cabeçalho */
 .todo-container {
@@ -88,4 +88,43 @@ select {
 
 #cancel-edit-btn {
     margin-top: 1rem;
+}
+
+/* Barra de ferramentas */
+#toolbar {
+    padding: 1rem;
+    border-bottom: 1px solid #CCC;
+    display: flex;
+}
+
+#toolbar h4 {
+    margin-bottom: 0.5rem;
+}
+
+#search {
+    border-right: 1px solid #DDD;
+    padding-right: 1rem;
+    margin-right: 1rem;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+}
+
+#search form {
+    display: flex;
+}
+
+#search input {
+    width: 100%;
+    margin-right: 0.3rem;
+}
+
+#filter {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+}
+
+#filter select {
+    flex: 1;
 }
